@@ -1,0 +1,236 @@
+---
+title: "Project 1"
+author: "Nishi Parikh (28144146)"
+date: "March 14, 2018"
+output: html_document
+---
+```{r}
+library("tidyverse")
+library("phyloseq")
+load("~/MICB425_materials/Module_03/Project1/data/qiime2_phyloseq.RData")
+```
+
+```{r}
+
+set.seed(4832)
+q.norm = rarefy_even_depth(qiime2, sample.size=100000)
+q.perc = transform_sample_counts(q.norm, function(x) 100 * x/sum(x))
+
+
+```
+
+
+Load QIIME2 physeq object
+```{r}
+q.norm
+```
+
+
+
+```{r}
+q.alpha = estimate_richness(q.norm, measures = c("Chao1", "Shannon"))
+
+q.meta.alpha = full_join(rownames_to_column(q.alpha), rownames_to_column(data.frame(q.perc@sam_data)), by = "rowname")
+
+q.meta.alpha
+
+```
+
+
+```{r}
+q.meta.alpha %>% 
+  
+ggplot() +
+  geom_point(aes(x=Depth_m, y=Shannon)) +
+   geom_smooth(method='loess', aes(x=as.numeric(Depth_m), y=Shannon)) +
+  labs(title="Alpha-diversity Across Depth", y="Shannon's diversity index", x="Depth (m)")
+
+```
+
+```{r}
+q.meta.alpha %>% 
+
+ggplot() +
+  geom_point(aes(x=O2_uM, y=Shannon)) +
+  labs(title="Alpha-diversity Across Oxygen", y="Shannon's diversity index", x="Oxygen (uM)")
+
+```
+
+
+```{r}
+q.meta.alpha %>% 
+  mutate(O2_group = ifelse(O2_uM == 0, "anoxic", "oxic")) %>% 
+
+ggplot() +
+  geom_boxplot(aes(x=O2_group, y=Shannon)) +
+  labs(title="Alpha-diversity by oxic/anoxic", y="Shannon's diversity index", x="Oxygen")
+
+```
+
+
+```{r}
+q.perc %>% 
+  
+plot_bar(fill="Phylum") + 
+  geom_bar(aes(fill=Phylum), stat="identity") +
+  labs(title="Example 4: Phylumss across samples")
+
+
+```
+
+
+```{r}
+q.perc %>% 
+  
+plot_bar() + 
+  geom_bar(aes(fill=Domain), stat="identity") +
+  facet_wrap(~Phylum, scales="free_y")+
+  labs(title="Example 5: Phyla across samples")
+
+
+
+
+```
+
+
+
+```{r}
+q.perc %>%
+  tax_glom(taxrank = 'Phylum') %>%
+  psmelt() %>% 
+
+ggplot() +
+  geom_boxplot(aes(x=Phylum, y=Abundance)) +
+  coord_flip() +
+  labs(title="Phylum boxplots")
+
+```
+
+```{r}
+
+library(magrittr)
+
+q.norm %>% 
+  subset_taxa(Domain=="unknown") %>% 
+  tax_glom(taxrank = 'Domain') %>%
+  psmelt() %>%
+
+  lm(Abundance ~ Depth_m, .) %>% 
+  summary()
+
+
+q.norm %>% 
+  subset_taxa(Domain=="unknown") %>% 
+  psmelt() %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance_sum=sum(Abundance), Depth_m=mean(Depth_m)) %>% 
+  
+ggplot() +
+  geom_point(aes(x=Depth_m, y=Abundance_sum)) +
+  geom_smooth(method='lm', aes(x=as.numeric(Depth_m), y=Abundance_sum)) +
+  labs(title="Example 7: Abundance unclassified domain across depth")
+
+
+```
+
+
+```{r}
+
+
+
+q.norm %>% 
+  subset_taxa(Phylum=="D_1__Planctomycetes") 
+
+
+```
+
+```{r}
+q.norm %>% 
+  subset_taxa(Phylum=="D_1__Planctomycetes") %>%
+  estimate_richness(measures = c("Observed"))
+```
+
+
+```{r}
+q.norm %>% 
+  subset_taxa(Phylum=="D_1__Planctomycetes") %>% 
+  plot_richness(measures=c("Observed")) + 
+  labs(title="Abundance of ASVs across different depths", x="Depth (m)", y="Number")
+  
+```
+
+```{r}
+
+
+q.perc %>% 
+  subset_taxa(Phylum=="D_1__Planctomycetes") %>% 
+  psmelt() %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance_sum=sum(Abundance), Depth_m=mean(Depth_m)) %>% 
+  
+ggplot() +
+  geom_point(aes(x=Depth_m, y=Abundance_sum)) +
+  geom_smooth(method='lm', aes(x=as.numeric(Depth_m), y=Abundance_sum)) +
+  labs(title="Abundance of Planctomycetes Across Depth")
+
+```
+
+```{r}
+q.perc %>% 
+  subset_taxa(Phylum=="D_1__Planctomycetes") %>% 
+  psmelt() %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance_sum=sum(Abundance), O2_uM=mean(O2_uM)) %>% 
+  
+ggplot() +
+  geom_point(aes(x=O2_uM, y=Abundance_sum)) +
+  geom_smooth(method='lm', aes(x=as.numeric(O2_uM), y=Abundance_sum)) +
+  labs(title="Abundance of Planctomycetes across O2 concentration")
+
+```
+
+```{r}
+
+q.filter <-
+subset_taxa(q.norm,Phylum=="D_1__Planctomycetes") 
+q.filtered <- as.data.frame(q.filter@otu_table)
+
+```
+
+```{r}
+
+
+
+# Remove the otu_stats object so upon rerunning doesn’t add to existing object
+rm(asv_stats)
+# Create new data frame to hold linear model outputs
+asv_stats = data.frame("Estimate" = numeric(0), "Std. Error"= numeric(0),"t value"= numeric(0),"Pr(>|t|)"= numeric(0))
+
+#Run a loop across your row names from a table of your otu/asv table filtered to just those within your taxon of interest. In this script, this table is named "m.filtered".
+for (asv in row.names(q.filtered)){
+#Make sure necessary packages are loaded
+  require(tidyverse)
+  require(knitr)
+#Run a linear model of 1 OTU against depth
+    linear_fit = qiime2 %>% 
+    psmelt() %>% 
+    filter(OTU==asv) %>% 
+    
+    lm(Abundance ~ Depth_m, .) %>% 
+    summary()
+#Pull out the coefficients and p-values for depth
+  asv_data = linear_fit$coefficients["Depth_m",]
+#Add these values to a growing table of OTUs
+  asv_stats <- rbind(asv_stats, asv_data)
+}
+#Rename columns of output table
+colnames(asv_stats)<- (c("Estimate", "Std. Error","t value","Pr(>|t|)"))
+
+#Apply row names from the m.filtered data to the lm output table
+row.names(asv_stats) <- row.names(q.filtered)
+
+#Print table
+kable(asv_stats,caption="Correlation data of OTUs within Chloroflexi phylum across depth")
+
+
+``` 

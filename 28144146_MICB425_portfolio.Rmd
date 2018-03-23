@@ -1,0 +1,652 @@
+---
+title: "28144146_MICB425_portfolio"
+author: "Nishi Parikh (28144146)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output:
+   html_document: 
+    toc: yes 
+---
+
+#Module 1 
+
+##Module 1 Portfolio Check 
+* Evidence worksheet_01
+    - Completion status:
+    - Comments:
+* Evidence worksheet_02
+    - Completion status:
+    - Comments:
+* Evidence worksheet_03
+    - Completion status:
+    - Comments:
+* Problem Set_01
+    - Completion status:
+    - Comments:
+* Problem Set_02
+    - Completion status:
+    - Comments:
+* Writing assessment_01
+    - Completion status:
+    - Comments:
+
+## Origins and Earth Systems
+### Evidence worksheet 01 
+[Whitman et al., 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+#### Learning objectives
+Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
+
+#### General Questions
+* What were the main questions being asked?
+** Experimentally - how many prokaryotes are there? And how much C, N and P do they contribute to different locations**
+** Discussion - how does including the contribution of prokaroyotes change the global perspective ** 
+
+* What were the primary methodological approaches used?
+
+** Examining other data to find out densities of prokaryotes in locations of interest (aquatic, soil and subsurface) - These 3 environments were further divided intro sub levels as they had different desities. Calculations were performed to determine the total prokaryote count in each location and then added together for a glocal count ** 
+
+* Summarize the main results or findings. 
+**Carbon - total carbon of prokaryotes on earth is 60-100% carbon found in plant** 
+**Prokaryotes are highest in oceanic sub surface; Prokaryotes provide more nutritional value than plants (1 fold higher)** 
+**Highest cellular productivity is found in the open ocean - therefore mutations are more likely to occur in this ecosystem than any other** 
+
+* Do new questions arise from the results?
+**For the subsurface,  efficiency of carbon assimilation is 0.2 then the calculated average turnover time is 1-2000 years. This is much longer than in other ecosystem and a few explanation are provided but nothing is confirmed? **
+**How does the number of bacteria compare to that of archae (not distinguished in the paper) ?**
+
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+**Methods - not explained thoroughly and also use data from different literature which could lead to unnormalized data/ inconsistencies** 
+**Background info is not really provided - just jump into discussing total carbon and prokaryote content **
+**The tables were helpful in providing a summary of the calculation and made comparisons between ecosystem were made easy. There were no figures included. **
+
+  
+  
+### Evidence worksheet 02   
+[Kasting & Siefert 2002](http://science.sciencemag.org/content/296/5570/1066.long)  
+
+#### Learning objectives  
+Comment on the emergence of microbial life and the evolution of Earth systems
+
+* Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
+
+    + 4.6 billion years ago  
+    
+    + 4.2 billion years ago  
+    
+    + 3.8 billion years ago  
+    
+    + 3.75 billion years ago  
+    
+    + 3.5 billion years ago  
+    
+    + 3.0 billion years ago  
+    
+    + 2.7 billion years ago  
+    
+    + 2.2 billion years ago  
+    
+    + 2.1 billion years ago
+    
+    + 1.3 billion years ago
+    
+    + 550,000 years ago
+    
+    + 200,000 years ago
+
+
+* Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:  
+
+    + Hadean  
+    
+    + Archean  
+    
+    + Precambrian  
+    
+    + Proterozoic  
+    
+    + Phanerozoic  
+
+
+### Evidence worksheet 03 
+
+
+### Learning objectives: 
+Evaluate human impacts on the ecology and biogeochemistry of Earth systems.
+
+### General Questions:
+
+
+* What were the main questions being asked?
+
+
+
+* What were the primary methodological approaches used?
+
+
+
+* Summarize the main results or findings. 
+
+
+
+* Do new questions arise from the results?
+
+
+
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+
+
+### Problem set 01
+#### Learning objectives: 
+Describe the numerical abundance of microbial life in relation to the ecology and biogeochemistry of Earth systems.
+
+#### Specific Questions:
+* What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
+
+**Prokaryotes are found in 3 primary habitats - aquatic, subsurface sediment and soil.**
+**Aquatic total - 1.18x1029**
+**Soil total prokaryote count - 2.556x1029**
+**Subsurface sediment total - 3.8x1030**
+
+* What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
+**Prokaryote cell abundance in upper 200 m of the ocean is 3.6x1028 (volume is 7.2 x10^22cm^3)**
+**Giving a cellular density of 5 x 105 cells/ml**
+**Cyanobacteria have a density of 4x104 cells/ml (thereby making up 8% of the total prokaryote populations)**
+
+* What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?  
+**Autotroph - obtains energy for system that is independent of ingestion of organic substrates or other organisms (ex cyanobacteria) - fix inorganic carbon (CO2 into biomass)**
+**Heterotroph - assimilate organic carbon **
+**Lithotroph - takes up inorganic substrates, breaks them down into energy; assimilate inorganic substrates **
+
+* Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
+**Deepest habitat - terrestrial sediments at 4km in depth; marine - the difference is at what depth the sediments starts** 
+**Limiting factors - temperature??? (125C is the maximum temperature) - Temperature changes 22C per kilometer  **
+
+**Deepest point on earth 	- Mariana's trench - 10.9 km** 
+
+* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
+**Highest point on Earth - Mount Everest 8.8km*
+**limiting factor - high pressure**
+
+* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth’s biosphere measured in km?  
+**Using mount everest to the bottom of Mariana's trench - 24 km **
+
+* How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
+** turnover time in days is converted to years. Then, the population size is divided by the turnover rate in years.**  
+*(16 days)/(365 days/year) = 0.0438 years*  
+*(3.6 x 10^28^ cells)/(0.0438 years) = 8.2 x 20^29^ cells/year*
+
+
+* What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+**Carbon efficiency/growth efficiency is 20% -> used a 4 multiplier instead of 5 **  
+**20fg of carbon in a prokaryotic cell --> 20^-30^ Pg/cell**  
+**3.6 x 10^28^ cells x 20^-30^ Pg/cell = 0.72 Pg of C in marine heterotrophs**  
+**4x 0.72 Pg C = 2.88Pg C/year**  
+**51Pg C/year x 0.85 (85% consumed) = 43 Pg C/year**  
+**(43 Pg C/year)/(2.88 Pg C/year) = 14.9/year turnovers **    
+**amount of carbon that is produced and consumed in different parts of the biosphere varies**  
+
+* How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10-7 per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
+ 
+**(4 x 10^-7^)^4^ = 2.56 x 10^-26^ mutations/generation**  
+**365/16 turnovers = 22.8 turnovers/year**  
+**3.6 x 10^28^ cells x 22.8 turnovers/year = 8.2 x 10^29^ cells/year**  
+**(8.2 x 10^29^ cells/year) x (2.56 x 10^-26^ mutations/generation) = 2.1 x 10^4^ mutations/year --> 0.4 hours/mutation**
+
+* Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
+
+
+* What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text?  
+
+
+### Problem set_02 “Microbial Engines”
+#### Learning objectives: 
+Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles.
+
+#### Specific Questions:
+* What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
+
+* Why is Earth’s redox state considered an emergent property?
+  
+
+* How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?  
+
+* Using information provided in the text, describe how the nitrogen cycle partitions between different redox “niches” and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
+
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+
+* On what basis do the authors consider microbes the guardians of metabolism?  
+
+
+### References for Module 1
+
+
+
+# Module 2 
+## Metagenomics: Genomic Analysis of Microbial Communities  
+
+### Evidence worksheet 04: Bacterial Rhodopsin Gene Expression  
+###Learning objectives  
+Discuss	the	relationship	between	microbial	community	structure	and	metabolic	diversity. Evaluate	common	methods	for	studying	the	diversity	of	microbial	communities. Recognize basic	design	elements	in	metagenomic	workflows.  
+
+### General Questions:
+* What were the main questions being asked?  
+**	What are the various specific functions and physiological roles of diverse marine microbial PRs**
+** What are the specific genetic and biochemical roles of the genes involved in the photosystem**
+** Understand the function and structure of the PR photosystem **
+
+* What were the primary methodological approaches used?  
+**	Performing a functional screen **
+** we directly screened large-insert DNA libraries derived from marine picoplankton for visibly detectable PR-expressing phenotypes **
+** used the copy control system present in our fosmid vector that allowed a controlled transition from one copy per cell to multiple (up to 100 copies)**
+** found 3 colonies which could express the orange pigment and further analyzed two clones HF1019P19 and HF1025F10 for PR gene expression and function **
+** why use single copy vs multiple copy **
+** fosmids are really large (40kb) having too many copies can increase burden + lead to homologous recombination (lots of insertions and deletions) but need more copies of DNA for functional screening and purification  **
+
+* Summarize the main results or findings.   
+ **Take environmental dna, programmed e coli with it and screened for a phenotype that e coli does not traditionally display** 
+**You can program a host with sufficient information from the environment + have a functional screen to identify the minimal set of genes needed to get that phenotype (implications – if there are fewer genes the chances of HGT, under selective pressure, would be present in multiple different lineages**
+**Access to information that would otherwise be unavailable **
+**With retinol and light -> tehre was a pH change **
+**Different lights – spectrotuning **
+**Gene was transferable between bacteria and archae **
+
+
+* Do new questions arise from the results?  
+
+* Were there any specific challenges or	advantages in	understanding the	 paper (e.g.	 did	 the	authors	 provide	 sufficient background information to understand experimental logic, were methods	explained	adequately,	were	any	specific	assumptions	made,	were	conclusions	justified	based	on	the	evidence,	were	the	figures	or tables useful and	easy to understand)?
+**I wasn’t sure of why they had controlled copy vectors (what is the purpose of inserting either one or multiple copies of the fosmid?)**
+
+
+### Problem set_03 “Metagenomics: Genomic Analysis of Microbial Communities”
+#### Learning objectives: 
+Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
+*(Reminders for how to format links, etc in RMarkdown are in the RMarkdown Cheat Sheets)*
+
+#### Specific Questions:
+* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+  *2016 - 89 bacterial phyla, 20 archaeal phyla - VIA small 16s rRNA databases; But could be up to 1500 bacterial phyla - as there are microbes that live in the shadow biosphere* 
+*2003 - 26 of 52 major bacterial phyla have been cultivated - probably more now *
+
+* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
+*How many - thousands ex. 110217 on EBI database*
+*Type of Environment - ALL (sediments, soil, gut, aquatic) *
+*Esp. those where it is hard to culture communities in lab settings *
+
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
+*Shotgun metagenomics*
+*Assembly - EULER *
+*Binning - S-GCOM *
+*Annotation - KEGG *
+*Analysis Pipelines - Megan5 *
+*InG Metagenome *
+*MG-RAFT*
+*NCBI*
+
+*Marker Gene metagenomics: *
+*Standalone software - OTUbase*
+*Analysis Pipelines 0 SILVA *
+*Denoising - Auplica Noise*
+*Databases - Ribosomal Database Proejct (RDP)*
+
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?   
+*Phylogenetic* 
+- Vertical gene transfer 
+- Carry phylogenetic information allowing tree reconstruction 
+- Taxonomic
+- Ideally single copy 
+*Functional* 
+- More horizontal gene transfer 
+- Identify specific biogeochem functions associated with measurable effects
+- Not as useful for phylogeny 
+
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
+*Clustering of sequences based on a cut off similarity; the purpose is to *
+	- Includes the variability that would be seen within a population 
+	- A good bin is complete and is not contaminated with the reads of other populations (both measured as percentages)
+	- To check for completion - check for the presence of house keeping and conserved genes - if you find all those genes in your bin 
+	- To check for contamination - if you have multiple copies but with slight variation it might indicate contamination 
+	
+*Types of Algorithmic Approaches *
+Composition based binning 
+	- Examining the GC content 
+Similarity based binning 
+	- Aligning with known sequences of a closely related organism 
+
+*Opportunities - obtain a sequence*
+
+* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+
+	- Functional screens (biochemical etc.)
+	- 3rd gen sequencing (nanopore)
+	- Single cell sequencing 
+	- FISH probe
+
+### References for Module 2 
+
+
+# Module 3 
+## Microbial Species Concepts  
+
+### Evidence worksheet_05
+### Learning objectives part 1: 
+Evaluate the concept of microbial species based on environmental surveys and
+cultivation studies. Explain the relationship between microdiversity, genomic diversity and metabolic
+potential. Comment on the forces mediating divergence and cohesion in natural microbial
+communities
+
+
+### General Questions:
+* What were the main questions being asked?  
+**Within one species, how different are the strains (in terms of genome)? **
+**Which genes are common to all strains of e coli. **
+**Look at the evolutionary history of pathogenic vs non-pathogenic strains? **
+**What differences between the strains of e coli. allow them to confer to significantly different lifestyles?**
+**What is the ancestral/core gene set? What are the accessory genes?  **
+**What defines e. coli as a species? **
+
+* What were the primary methodological approaches used?  
+**Coding + sequencing **
+**CTFO73 was isolated at University of Maryland hospital; from the blood of a woman w acute pyelonephritis **
+**Clones were randomly sequenced using dye-terminator chemistry **
+**Sequence analysis + annotation **
+
+* Summarize the main results or findings. 
+**CFT073 genome organization relative to other e. coli strains **
+**	No virulence plasmid found; 5 cryptic prophages; 70% of ORFs identified as unique to ED or MF are now replaced with new genes which are specific to CFT073**
+**Islands and Horizontal Transfer **
+	** Analysis done on CFT073 on the basis that codon usage would defer between the backbone and the islands; 52 of 61 island ORFs had significantly different frequency distribution than from the backbone **
+**Only 39% of combined sets of proteins between the uropathic, enterohemorrhagic, and laboratory strain E. coli are common to all 3 strains - "cpre/backbone" **  
+
+
+* Do new questions arise from the results?  
+
+
+* Were there any specific challenges or	advantages in	understanding the	 paper (e.g.	 did	 the	authors	 provide	 sufficient background information to understand experimental logic, were methods	explained	adequately,	were	any	specific	assumptions	made,	were	conclusions	justified	based	on	the	evidence,	were	the	figures	or tables useful and	easy to understand)?	
+
+### Learning objectives part 2:  
+Comment	on	 the	creative	 tension	between	gene	loss,	duplication	and	acquisition	as	it	
+relates	to	microbial	genome	evolution. Identify	common	molecular	signatures	used	to	infer	genomic	identity	and	cohesion. Differentiate	between	mobile	elements	and	different	modes	of	gene	transfer.  
+
+### General Questions:  
+Based	on	your	reading	and	discussion	notes,	explain	the	meaning	and content	of	the	following	figure	derived	from	the	comparative	genomic	analysis	of	three E.	coli genomes	by	Welch	et	al.	
+Remember	 that	 CFT073	 is	 a	 uropathogenic	 strain	 and that	 EDL933	 is	 an	 enterohemorrhagic	strain.	 Explain	 how	 this	 study	 relates	 to	 your understanding	 of	 ecotype	 diversity. Provide	 a	definition	of	ecotype	in	the	context	of	the human	body.	Explain	why	certain	subsets	of	genes	in	CFT073	 provide	 adaptive	 traits under	 your	 ecological	 model and	 speculate	 on	 their	 mode	 of	vertical	descent	or	gene transfer.
+
+### Problem set_04 “Fine-scale phylogenetic architecture”
+#### Learning objectives: 
+
+* Gain experience estimating diversity within a hypothetical microbial community
+
+
+#### Outline:
+
+In class Day 1:
+
+1. Define and describe species within your group's "microbial" community.
+2. Count and record individuals within your defined species groups.
+3. Remix all species together to reform the original community.
+4. Each person in your group takes a random sample of the community (*i.e.* devide up the candy).
+
+Assignment:
+
+5. Individually, complete a collection curve for your sample.
+6. Calculate alpha-diversity based on your original total community and your individual sample.
+
+In class Day 2:
+
+7. Compare diversity between groups.
+
+#### Part 1: Description and enumeration
+Obtain a collection of "microbial" cells from "seawater". The cells were concentrated from different depth intervals by a marine microbiologist travelling along the Line-P transect in the northeast subarctic Pacific Ocean off the coast of Vancouver Island British Columbia. 
+
+Sort out and identify different microbial "species" based on shared properties or traits. Record your data in this Rmarkdown using the example data as a guide.
+
+Once you have defined your binning criteria, separate the cells using the sampling bags provided. These operational taxonomic units (OTUs) will be considered separate "species". This problem set is based on content available at [What is Biodiversity](http://cnx.org/content/m12179/latest/).
+
+For example, load in the packages you will use.
+```{r message=FALSE}
+#To make tables
+library(kableExtra)
+library(knitr)
+#To manipulate and plot data
+library(tidyverse)
+```
+
+Then load in the data. You should use a similar format to record your community data.
+```{r}
+example_data1 = data.frame(
+  number = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14),
+  name = c("skittles", "Vines", "Mikes & Ikes", "Bricks", "Gummy Bears", "M&Ms", "Sour Bear", "Sour Fruit", "Hershey's Kisses", "Jubes", "Sour Bottle", "Sour Swirl", "Wine Candy", "Sour Hexa"),
+  characteristics = c("small, circle", "vines shape", "rod shaped", "small rectangle", "bear shaped, translucent", "small, oval", "bear shaped, opaque", "fruit", "silver wrapping", "large round", "bottle, opaque", "swirl", "wine shape", "octopi shape"),
+  occurences = c(186, 14, 174, 18, 101, 241, 3, 2, 16, 24, 3, 3, 9, 6)
+)
+```
+
+Finally, use these data to create a table.
+```{r}
+example_data1 %>% 
+  kable("html") %>%
+  kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
+```
+	
+For your community:
+
+* Construct a table listing each species, its distinguishing characteristics, the name you have given it, and the number of occurrences of the species in the collection.
+* Ask yourself if your collection of microbial cells from seawater represents the actual diversity of microorganisms inhabiting waters along the Line-P transect. Were the majority of different species sampled or were many missed? 
+
+```{r}
+#mycommuniy data
+example_data1.1 = data.frame(
+  number = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14),
+  name = c("skittles", "Vines", "Mikes & Ikes", "Bricks", "Gummy Bears", "M&Ms", "Sour Bear", "Sour Fruit", "Hershey's Kisses", "Jubes", "Sour Bottle", "Sour Swirl", "Wine Candy", "Sour Hexa"),
+  characteristics = c("small, circle", "vines shape", "rod shaped", "small rectangle", "bear shaped, translucent", "small, oval", "bear shaped, opaque", "fruit", "silver wrapping", "large round", "bottle, opaque", "swirl", "wine shape", "octopi shape"),
+  occurences = c(39, 1, 29, 4, 21, 41, 1, 1, 4, 6, 0, 1, 0, 2)
+)
+```
+ 
+#### Part 2: Collector's curve
+To help answer the questions raised in Part 1, you will conduct a simple but informative analysis that is a standard practice in biodiversity surveys. This analysis involves constructing a collector's curve that plots the cumulative number of species observed along the y-axis and the cumulative number of individuals classified along the x-axis. This curve is an increasing function with a slope that will decrease as more individuals are classified and as fewer species remain to be identified. If sampling stops while the curve is still rapidly increasing then this indicates that sampling is incomplete and many species remain undetected. Alternatively, if the slope of the curve reaches zero (flattens out), sampling is likely more than adequate.
+
+To construct the curve for your samples, choose a cell within the collection at random. This will be your first data point, such that X = 1 and Y = 1. Next, move consistently in any direction to a new cell and record whether it is different from the first. In this step X = 2, but Y may remain 1 or change to 2 if the individual represents a new species. Repeat this process until you have proceeded through all cells in your collection.
+
+For example, we load in these data.
+```{r}
+example_data2 = data.frame(
+  x = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23),
+  y = c(1,2,2,3,3,4,5,6,7,8,8,8,8,8,9,10,10,10,10,11,11,11,12)
+)
+```
+
+And then create a plot. We will use a scatterplot (geom_point) to plot the raw data and then add a smoother to see the overall trend of the data.
+```{r}
+ggplot(example_data2, aes(x=x, y=y)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
+```
+
+For your sample:
+
+* Create a collector's curve for your sample (not the entire original community).
+* Does the curve flatten out? If so, after how many individual cells have been collected?
+the curve does not flatten out 
+* What can you conclude from the shape of your collector's curve as to your depth of sampling?
+
+#### Part 3: Diversity estimates (alpha diversity)
+Using the table from Part 1, calculate species diversity using the following indices or metrics.
+
+##### Diversity: Simpson Reciprocal Index
+
+$\frac{1}{D}$ where $D = \sum p_i^2$
+
+$p_i$ = the fractional abundance of the $i^{th}$ species
+
+For example, using the example data 1 with 3 species with 2, 4, and 1 individuals each, D =
+
+```{r}
+
+#mycommunity 
+species1 = 39 / (150)
+species2 = 1 / (150)
+species3 = 29 / (150)
+species4 = 4 / (150)
+species5 = 21 / (150)
+species6 = 41 / (150)
+species7 = 1 / (150)
+species8 = 1 / (150)
+species9 = 4 / (150)
+species10 = 6 / (150)
+species11 = 0 / (150)
+species12 = 1 / (150)
+species13 = 0 / (150)
+species14 = 2 / (150)
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2)
+
+
+#general community 
+species1 =  186 / (801)
+species2 =  14 / (801)
+species3 =  174 / (801)
+species4 = 18 / (801)
+species5 = 101 / (801)
+species6 = 241 / (801)
+species7 = 3 / (801)
+species8 = 2 / (801)
+species9 = 16 / (801)
+species10 = 24 / (801)
+species11 = 3 / (801)
+species12 = 3 / (801)
+species13 = 9 / (801)
+species14 = 6 / (801)
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2)
+
+```
+
+The higher the value is, the greater the diversity. The maximum value is the number of species in the sample, which occurs when all species contain an equal number of individuals. Because the index reflects the number of species present (richness) and the relative proportions of each species with a community (evenness), this metric is a diveristy metric. Consider that a community can have the same number of species (equal richness) but manifest a skewed distribution in the proportion of each species (unequal evenness), which would result in different diveristy values.
+
+* What is the Simpson Reciprocal Index for your sample?
+4.934211
+* What is the Simpson Reciprocal Index for your original total community?
+
+##### Richness: Chao1 richness estimator
+Another way to calculate diversity is to estimate the number of species that are present in a sample based on the empirical data to give an upper boundary of the richness of a sample. Here, we use the Chao1 richness estimator. 
+
+$S_{chao1} = S_{obs} + \frac{a^2}{2b})$
+
+$S_{obs}$ = total number of species observed
+a = species observed once
+b = species observed twice or more
+
+So for our previous example community of 3 species with 2, 4, and 1 individuals each, $S_{chao1}$ =
+
+```{r}
+#mycommunity
+12 + 4^2/(8*2)
+
+#general community 
+14 + 0^2/(14^2)
+```
+
+* What is the chao1 estimate for your sample?
+13
+* What is the chao1 estimate for your original total community?
+14
+
+#### Part 4: Alpha-diversity functions in R
+We've been doing the above calculations by hand, which is a very good exercise to aid in understanding the math behind these estimates. Not surprisingly, these same calculations can be done with R functions. Since we just have a species table, we will use the `vegan` package. You will need to install this package if you have not done so previously. 
+
+```{r message=FALSE}
+library(vegan)
+```
+
+First, we must remove the unnecesary data columns and transpose the data so that `vegan` reads it as a species table with species as columns and rows as samples (of which you only have 1).
+```{r}
+#mycommunity
+example_data1.1_diversity = 
+  example_data1.1 %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+example_data1.1_diversity
+
+
+#general community 
+example_data1_diversity = 
+  example_data1 %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+example_data1_diversity
+```
+
+Then we can calculate the Simpson Reciprocal Index using the `diversity` function.
+```{r}
+#mycoomunity
+diversity(example_data1.1_diversity, index="invsimpson")
+
+#general community 
+diversity(example_data1_diversity, index="invsimpson")
+
+```
+
+And we can calculate the Chao1 richness estimator (and others by default) with the the `specpool` function for extrapolated species richness. This function rounds to the nearest whole number so the value will be slightly different that what you've calculated above.
+```{r}
+#mycommunity
+specpool(example_data1.1_diversity)
+
+#general community 
+specpool(example_data1_diversity)
+
+```
+
+In Project 1, you will also see functions for calculating alpha-diversity in the `phyloseq` package since we will be working with data in that form.
+
+For your sample:
+
+* What are the Simpson Reciprocal Indices for your sample and community using the R function?
+  my community - 4.934211 
+  general community - 4.7529
+* What are the chao1 estimates for your sample and community using the R function?
+    + Verify that these values match your previous calculations.
+    my community - 12 
+  general community - 14
+
+#### Part 5: Concluding activity
+If you are stuck on some of these final questions, reading the [Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865) and [Lundin et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/23760801) papers may provide helpful insights. 
+
+* How does the measure of diversity depend on the definition of species in your samples?
+  everyone has different defintion of the species 
+  sampling bias - didn't have enough candy; vines stick together 
+* Can you think of alternative ways to cluster or bin your data that might change the observed number of species?
+  if we had a more complex phylogeny - including colour??
+  species definition: 
+   consider the metabollic processes of the microbes 
+   occupy similar habitat 
+   physical appearance 
+   Sampling method standards (may vary with habitat)
+   consistent processing of each sample (extraction of nuceleic acids)
+   define what you consider a species within your research group (stay consistent) - 97% sequence/ 100% ASV
+   same gene region 
+   use the same primers (there are multiple sets of universla primers - but they are not really universwal)
+   use curated database 
+* How might different sequencing technologies influence observed diversity in a sample?
+
+
+References for Module 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

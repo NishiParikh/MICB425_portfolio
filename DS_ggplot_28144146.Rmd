@@ -2,10 +2,13 @@
 title: "DSggplot_28144146"
 author: "Nishi Parikh (28144146)"
 date: "version `r format (Sys.time(), '%B %d, %Y')`"
-output: 
+output:
+  pdf_document:
+    toc: yes
   html_document:
     toc: yes
 ---
+#running tidyverse 
 ```{r}
 install.packages("stringr")
 install.packages("tidyverse")
@@ -18,7 +21,7 @@ source("https://bioconductor.org/biocLite.R")
 biocLite("phyloseq")
 library(phyloseq)
 ```
-#load data
+#load data  
 ```{r}
 load("phyloseq_object.RData")
 ```
