@@ -1,0 +1,63 @@
+---
+title: "Project 2 self-assessment of contributions"
+author: "Nishi Parikh (28144146)"
+date: "April 25, 2018"
+output: html_document
+---
+
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+
+## Abstract
+### Writing
+
+### Editing
+
+edited the final draft of the abstract. 
+
+## Introduction
+### Literature research
+
+### Writing
+
+### Editing
+
+Made a few edits to the introduction 
+
+## Methods
+### Writing
+
+### Editing
+
+
+## Results
+### Anaysis 
+
+I ran the files and got the data for the RNA at different depths. I troubleshoot for this as well. 
+
+### Figures
+
+I created the RNA iTOL graphs and edited both the RNA and DNA iTOL graphs. 
+
+### Writing
+
+I wrote the initial descriptions and figure captions for the iTOL graphs. 
+
+### Editing
+
+
+
+## Discussion
+### Literature research
+
+Did research on the distribution of the nitrogen cycle among different phyla. 
+
+### Writing
+
+Wrote the section on the distribution of the nitrogen cycle among different phyla. 
+
+### Editing
+
+Edited the dsicussion.

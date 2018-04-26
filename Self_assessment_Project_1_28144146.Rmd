@@ -1,0 +1,57 @@
+---
+title: "Project 1 self-assessment of contributions"
+subtitle: "2018 Term 2 - MICB425"
+author: "Nishi Parikh "
+output: html_document
+---
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+
+## Abstract
+### Writing
+
+I wrote the abstract for project 1. 
+
+### Editing
+
+
+## Introduction
+### Literature research
+
+### Writing
+
+### Editing
+
+I helped edit the introduction.
+
+## Methods
+### Writing
+
+### Editing
+
+
+## Results
+### Anaysis 
+
+Troubleshooted for writing the code to loop the data. 
+
+### Figures
+
+I wrote the script and made the figures for the ASV data. 
+
+### Writing
+
+### Editing
+
+I edited the decsription for some of the figures. 
+
+## Discussion
+### Literature research
+
+### Writing
+
+### Editing
+
+Edited the dsicussion. 
